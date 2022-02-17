@@ -1,6 +1,7 @@
-/*.App {*/
-/*  text-align: center;*/
-/*}*/
+.Clock {
+  color: red;
+  margin-top: 20px;
+}
 
 /*.App-header {*/
 /*  min-height: 10vh;*/
