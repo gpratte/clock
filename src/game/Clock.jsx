@@ -24,7 +24,19 @@ const Clock = () => {
   return (
     <div className="Clock">
       <div>{round.name} {timeRemaining.minutes}:{timeRemaining.seconds} {round.bigBlind} {round.smallBlind} {round.ante}</div>
-      <div>Controls</div>
+      <div>
+          <i className="fas fa-step-backward"></i>
+          &nbsp;&nbsp;
+          <i className="fas fa-backward"></i>
+          &nbsp;&nbsp;
+          <i className="fas fa-pause"/>
+          &nbsp;&nbsp;
+          <i className="fas fa-play"/>
+          &nbsp;&nbsp;
+          <i className="fas fa-forward"/>
+          &nbsp;&nbsp;
+          <i className="fas fa-step-forward"/>
+      </div>
       <div>{nextRound.name} {nextRound.duration} {nextRound.bigBlind} {nextRound.smallBlind} {nextRound.ante}</div>
     </div>
   )
